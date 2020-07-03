@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9768e37-578f-464f-87f8-eab723dbbeee" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1dxcwe6dRlj0C6Ui8FcZct0ur07" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="JuegoDeLaVida" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNameShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JuegoDeLaVida" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestNameShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNameShould.execute_one_iteration_game_of_life_one_cell_and_die" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JuegoDeLaVida" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestNameShould" />
+      <option name="METHOD_NAME" value="execute_one_iteration_game_of_life_one_cell_and_die" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNameShould.execute_one_iteration_game_of_life_oscillator_blinker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JuegoDeLaVida" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestNameShould" />
+      <option name="METHOD_NAME" value="execute_one_iteration_game_of_life_oscillator_blinker" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNameShould.execute_one_iteration_game_of_life_still_life_block" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JuegoDeLaVida" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestNameShould" />
+      <option name="METHOD_NAME" value="execute_one_iteration_game_of_life_still_life_block" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.TestNameShould.execute_one_iteration_game_of_life_one_cell_and_die" />
+      <item itemvalue="JUnit.TestNameShould.execute_one_iteration_game_of_life_oscillator_blinker" />
+      <item itemvalue="JUnit.TestNameShould" />
+      <item itemvalue="JUnit.TestNameShould.execute_one_iteration_game_of_life_still_life_block" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestNameShould" />
+        <item itemvalue="JUnit.TestNameShould.execute_one_iteration_game_of_life_still_life_block" />
+        <item itemvalue="JUnit.TestNameShould.execute_one_iteration_game_of_life_oscillator_blinker" />
+        <item itemvalue="JUnit.TestNameShould.execute_one_iteration_game_of_life_one_cell_and_die" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9768e37-578f-464f-87f8-eab723dbbeee" name="Default Changelist" comment="" />
+      <created>1593370424808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593370424808</updated>
+      <workItem from="1593370428713" duration="86000" />
+      <workItem from="1593370802031" duration="5138000" />
+      <workItem from="1593458399583" duration="42000" />
+      <workItem from="1593613933105" duration="1468000" />
+      <workItem from="1593616802706" duration="2940000" />
+      <workItem from="1593680597281" duration="1131000" />
+      <workItem from="1593712008172" duration="17268000" />
+      <workItem from="1593785050546" duration="3686000" />
+      <workItem from="1593806070277" duration="215000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="134" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593372692397">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="134" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728@0.0.1360.728" timestamp="1593372692397" />
+    <state x="485" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1593374389192">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="485" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1593374389192" />
+    <state x="460" y="119" key="FileChooserDialogImpl" timestamp="1593680618187">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="460" y="119" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1593680618187" />
+    <state width="1317" height="179" key="GridCell.Tab.0.bottom" timestamp="1593789359820">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="179" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1593789359820" />
+    <state width="1317" height="179" key="GridCell.Tab.0.center" timestamp="1593789359820">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="179" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1593789359820" />
+    <state width="1317" height="179" key="GridCell.Tab.0.left" timestamp="1593789359820">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="179" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1593789359820" />
+    <state width="1317" height="179" key="GridCell.Tab.0.right" timestamp="1593789359820">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="179" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1593789359820" />
+    <state x="451" y="193" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593372416011">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="451" y="193" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1360.728@0.0.1360.728" timestamp="1593372416011" />
+    <state x="62" y="25" key="new project wizard" timestamp="1593628755783">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="62" y="25" key="new project wizard/0.0.1360.728@0.0.1360.728" timestamp="1593628755783" />
+  </component>
+</project>
