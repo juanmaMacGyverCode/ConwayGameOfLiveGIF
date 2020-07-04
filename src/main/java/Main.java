@@ -5,6 +5,13 @@ import java.io.File;
 import java.io.IOException;
 import java.util.LinkedList;
 import javax.imageio.ImageIO;
+import org.w3c.dom.Node;
+
+import javax.imageio.*;
+import javax.imageio.metadata.IIOInvalidTreeException;
+import javax.imageio.metadata.IIOMetadata;
+import javax.imageio.metadata.IIOMetadataNode;
+import javax.imageio.stream.ImageOutputStream;
 
 public class Main {
 
@@ -38,10 +45,10 @@ public class Main {
             world.set_living_at(new Location(posX,posY));
         }
 
-        String pathToSaveImage = "C:\\Tu\\direccion.bmp";
+        //String pathToSaveImage = "C:\\Tu\\direccion.bmp";
 
         BufferedImage img = map( 1000, 1000, world );
-        savePNG( img, pathToSaveImage );
+        savePNG( img, "C:\\Users\\Juanma\\Pictures\\Test\\test0.bmp" );
 
         for (int i = 1; i < 200; i++) {
             world.next_turn();
@@ -87,20 +94,7 @@ public class Main {
 }
 
 /*
-
-package com.example.main.Services;
-
-        import org.w3c.dom.Node;
-
-        import javax.imageio.*;
-        import javax.imageio.metadata.IIOInvalidTreeException;
-        import javax.imageio.metadata.IIOMetadata;
-        import javax.imageio.metadata.IIOMetadataNode;
-        import javax.imageio.stream.ImageOutputStream;
-        import java.awt.image.BufferedImage;
-        import java.io.File;
-
-public class animationGif {
+class animationGif {
     public static void configure(IIOMetadata meta,
                                  String delayTime,
                                  int imageIndex) {

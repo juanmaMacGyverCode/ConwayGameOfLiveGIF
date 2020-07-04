@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9768e37-578f-464f-87f8-eab723dbbeee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a9768e37-578f-464f-87f8-eab723dbbeee" name="Default Changelist" comment="tercerCommit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/GifSequenceWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainGif.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eeee28a922d2819ffba795ccea6865aca41b7451" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eeee28a922d2819ffba795ccea6865aca41b7451" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNameShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNameShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/World.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNameShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNameShould.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +63,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -45,9 +74,16 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MainGif">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="JuegoDeLaVida" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainGif" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainGif" />
       <module name="JuegoDeLaVida" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -58,17 +94,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestNameShould" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNameShould.execute_one_iteration_game_of_life_one_cell_and_die" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JuegoDeLaVida" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestNameShould" />
-      <option name="METHOD_NAME" value="execute_one_iteration_game_of_life_one_cell_and_die" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BSP.BeforeRunTask" enabled="true" />
@@ -105,18 +130,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.TestNameShould.execute_one_iteration_game_of_life_one_cell_and_die" />
+      <item itemvalue="Application.MainGif" />
       <item itemvalue="JUnit.TestNameShould.execute_one_iteration_game_of_life_oscillator_blinker" />
       <item itemvalue="JUnit.TestNameShould" />
       <item itemvalue="JUnit.TestNameShould.execute_one_iteration_game_of_life_still_life_block" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainGif" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestNameShould" />
         <item itemvalue="JUnit.TestNameShould.execute_one_iteration_game_of_life_still_life_block" />
         <item itemvalue="JUnit.TestNameShould.execute_one_iteration_game_of_life_oscillator_blinker" />
-        <item itemvalue="JUnit.TestNameShould.execute_one_iteration_game_of_life_one_cell_and_die" />
       </list>
     </recent_temporary>
   </component>
@@ -138,8 +163,18 @@
       <workItem from="1593680597281" duration="1131000" />
       <workItem from="1593712008172" duration="17268000" />
       <workItem from="1593785050546" duration="3686000" />
-      <workItem from="1593806070277" duration="574000" />
+      <workItem from="1593806070277" duration="7320000" />
+      <workItem from="1593857360041" duration="21000" />
+      <workItem from="1593874930173" duration="5322000" />
     </task>
+    <task id="LOCAL-00001" summary="tercerCommit">
+      <created>1593806937479</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593806937479</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +190,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tercerCommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="tercerCommit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="134" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593372692397">
@@ -165,26 +205,30 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="485" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1593374389192" />
-    <state x="460" y="119" key="FileChooserDialogImpl" timestamp="1593680618187">
+    <state x="460" y="119" key="FileChooserDialogImpl" timestamp="1593857379061">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="460" y="119" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1593680618187" />
-    <state width="1317" height="179" key="GridCell.Tab.0.bottom" timestamp="1593789359820">
+    <state x="460" y="119" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1593857379061" />
+    <state width="1317" height="107" key="GridCell.Tab.0.bottom" timestamp="1593880384150">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="179" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1593789359820" />
-    <state width="1317" height="179" key="GridCell.Tab.0.center" timestamp="1593789359820">
+    <state width="1317" height="107" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1593880384150" />
+    <state width="1317" height="107" key="GridCell.Tab.0.center" timestamp="1593880384150">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="179" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1593789359820" />
-    <state width="1317" height="179" key="GridCell.Tab.0.left" timestamp="1593789359820">
+    <state width="1317" height="107" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1593880384150" />
+    <state width="1317" height="107" key="GridCell.Tab.0.left" timestamp="1593880384150">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="179" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1593789359820" />
-    <state width="1317" height="179" key="GridCell.Tab.0.right" timestamp="1593789359820">
+    <state width="1317" height="107" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1593880384150" />
+    <state width="1317" height="107" key="GridCell.Tab.0.right" timestamp="1593880384150">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="179" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1593789359820" />
+    <state width="1317" height="107" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1593880384150" />
+    <state x="272" y="97" key="Vcs.Push.Dialog.v2" timestamp="1593806977850">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="272" y="97" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1593806977850" />
     <state x="451" y="193" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593372416011">
       <screen x="0" y="0" width="1360" height="728" />
     </state>

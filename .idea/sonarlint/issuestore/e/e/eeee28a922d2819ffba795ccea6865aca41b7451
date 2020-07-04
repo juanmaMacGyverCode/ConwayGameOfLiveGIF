@@ -1,24 +1,24 @@
 
+L
+java:S10663"/Merge this if statement with the enclosing one.(˜ıô8µÉ¤Š±.
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ª–¤şÿÿÿÿ8êÖµã¯.
+c
+java:S1126"AReplace this if-then-else statement by a single return statement.(ÿ¸­êıÿÿÿÿ8æıºã¯.
+
+java:S1319	"qThe return type of this method should be an interface such as "List" rather than the implementation "LinkedList".(­×@8êÖµã¯.
 Z
 java:S1197"8Move the array designator from the variable to the type.(È¸æ§şÿÿÿÿ8êÖµã¯.
+o	java:S100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À·çùÿÿÿÿ8Åê®…±.
+Z
+java:S1197W"8Move the array designator from the variable to the type.(™¯ì©ıÿÿÿÿ8½¢õˆ±.
+^
+java:S1126@"AReplace this if-then-else statement by a single return statement.(óÇÿ¶8•ĞØ†±.
+j	java:S100V"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é£ç8“ÚÌˆ±.
+i	java:S100	"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­×@8êÖµã¯.
+]	java:S125F"<This block of commented-out lines of code should be removed.(·£Øˆüÿÿÿÿ8ÙÁÈ²±.
+o
+java:S3776V"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(é£ç8˜·æ¨±.
 u
 java:S2293
 "YReplace the type specification in this constructor call with the diamond operator ("<>").(çÍ„8êÖµã¯.
-o	java:S100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ—Îşşÿÿÿÿ8‡”Ìã¯.
-o
-java:S3776U"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(é£ç8˜·æ¨±.
-j	java:S100E"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä»ˆ8ÄÛº…±.
-^
-java:S1126?"AReplace this if-then-else statement by a single return statement.(óÇÿ¶8•ĞØ†±.
-o	java:S100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À·çùÿÿÿÿ8Åê®…±.
-Z
-java:S1197V"8Move the array designator from the variable to the type.(™¯ì©ıÿÿÿÿ8½¢õˆ±.
-j	java:S100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é£ç8“ÚÌˆ±.
-L
-java:S10662"/Merge this if statement with the enclosing one.(˜ıô8µÉ¤Š±.
-
-java:S1319	"qThe return type of this method should be an interface such as "List" rather than the implementation "LinkedList".(­×@8êÖµã¯.
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ª–¤şÿÿÿÿ8êÖµã¯.
-c
-java:S1126"AReplace this if-then-else statement by a single return statement.(ÿ¸­êıÿÿÿÿ8æıºã¯.
-i	java:S100	"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­×@8êÖµã¯.
+o	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ—Îşşÿÿÿÿ8‡”Ìã¯.

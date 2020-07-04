@@ -25,6 +25,7 @@ public class World {
         this.matriz[location.getPosX()][location.getPosY()] = livingCell;
     }
 
+    /*Sobra a nivel de ejecucion*/
     public boolean empty() {
         int cellsAlive = living_Cells().size();
         if (cellsAlive == 0) {
@@ -66,7 +67,7 @@ public class World {
         return false;
     }
 
-    public LivingCell find_target_cell(int posX, int posY) {
+    /*public LivingCell find_target_cell(int posX, int posY) {
         for (int i = 0; i < this.matriz.length; i++) {
             for (int j = 0; j < this.matriz[i].length; j++) {
                 if (this.matriz[i][j] == null) {
@@ -80,7 +81,7 @@ public class World {
         }
 
         return null;
-    }
+    }*/
 
     public void next_turn() {
         LivingCell newMatriz[][] = new LivingCell[100][100];
@@ -98,7 +99,7 @@ public class World {
                     }
                 }
 
-                // Creacion de nuevas celulas
+                // Creacion de nuevas celulas (Revive)
                 if (count_neighbours(locationTarget) == 3) {
                     newMatriz[i][j] = new LivingCell(locationTarget);
                 }

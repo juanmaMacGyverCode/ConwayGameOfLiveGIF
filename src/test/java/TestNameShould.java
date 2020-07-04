@@ -139,8 +139,6 @@ public class TestNameShould {
         assertThat(world.alive_at(new Location(5,5))).isTrue();
         assertThat(world.alive_at(new Location(6,5))).isTrue();
 
-        /*assertThat(world.count_neighbours(new Location(4,5))).isEqualTo(3);
-        //assertThat(world.survivedCell(new Location(4,5))).isTrue();*/
     }
 
     @Test
@@ -160,7 +158,5 @@ public class TestNameShould {
         assertThat(world.alive_at(new Location(5,4))).isTrue();
         assertThat(world.alive_at(new Location(5,5))).isTrue();
 
-        /*assertThat(world.count_neighbours(new Location(4,5))).isEqualTo(3);
-        //assertThat(world.survivedCell(new Location(4,5))).isTrue();*/
     }
 }
