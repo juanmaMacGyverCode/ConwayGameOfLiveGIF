@@ -1,0 +1,23 @@
+
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ8ã¤ƒ³±.
+c
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(¾åÞÄÿÿÿÿÿ8¦¤“³±.
+^
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(·ÒñÉ8î§ü²±.
+e
+java:S1128"CRemove this unused import 'javax.imageio.metadata.IIOMetadataNode'.(¦®ø€üÿÿÿÿ8ã¤ƒ³±.
+m
+java:S1128"KRemove this unused import 'javax.imageio.metadata.IIOInvalidTreeException'.(åÓÆöüÿÿÿÿ8ã¤ƒ³±.
+]
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Æ¼²l8î§ü²±.
+c
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(‹˜ÀÅøÿÿÿÿ8î§ü²±.
+^
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(÷À‰ç8î§ü²±.
+a
+java:S1128"?Remove this unused import 'javax.imageio.metadata.IIOMetadata'.(î¥åçøÿÿÿÿ8ã¤ƒ³±.
+@
+java:S1128"Remove this duplicated import.(ÜÏÍåÿÿÿÿÿ8î§ü²±.
+V
+java:S1128"9Remove this unused import 'java.awt.image.RenderedImage'.(¤Ò£Ò8ã¤ƒ³±.

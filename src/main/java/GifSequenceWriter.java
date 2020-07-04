@@ -83,12 +83,12 @@ public class GifSequenceWriter {
             }
         }
 
-        // AQUI LOGICOA
+        // AQUI LOGICA
         LinkedList<LivingCell> aliveCells = world.living_Cells();
 
         for (LivingCell cell: aliveCells) {
-            for (int x = cell.location.getPosX()*10; x < cell.location.getPosX()*10 + 10; x++){
-                for (int y = cell.location.getPosY()*10; y < cell.location.getPosY()*10 + 10; y++){
+            for (int x = cell.location.getPosX()*MainGif.FACTOR_SIZE; x < cell.location.getPosX()*MainGif.FACTOR_SIZE + MainGif.FACTOR_SIZE; x++){
+                for (int y = cell.location.getPosY()*MainGif.FACTOR_SIZE; y < cell.location.getPosY()*MainGif.FACTOR_SIZE + MainGif.FACTOR_SIZE; y++){
                     res.setRGB(x, y, Color.BLACK.getRGB() );
                 }
             }

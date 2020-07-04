@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 
 public class World {
-    LivingCell matriz[][] = new LivingCell[100][100];
+    LivingCell matriz[][] = new LivingCell[MainGif.X_SIZE][MainGif.Y_SIZE];
 
     public World() {
     }
@@ -36,7 +36,7 @@ public class World {
     }
 
     public boolean alive_at(Location location) {
-        return this.matriz[location.getPosX()][location.getPosY()] instanceof LivingCell;
+        return this.matriz[location.getPosX()][location.getPosY()] != null;
     }
 
     public int count_neighbours(Location location) {
@@ -44,7 +44,7 @@ public class World {
         int amountNeighbours = 0;
         for (int i = location.getPosX() - 1; i <= location.getPosX() + 1; i++) {
             for (int j = location.getPosY() - 1; j <= location.getPosY() + 1; j++) {
-                if (i < 0 || j < 0 || i >= 100 || j >= 100) {
+                if (i < 0 || j < 0 || i >= MainGif.X_SIZE || j >= MainGif.Y_SIZE) {
                     continue;
                 }
                 if (this.matriz[i][j] != null) {
@@ -61,47 +61,37 @@ public class World {
     public boolean survivedCell(Location location) {
         int amountNeighbours = count_neighbours(location);
         // REGLAS
-        if (amountNeighbours == 2 || amountNeighbours == 3) {
-            return true;
+        for (int rule: MainGif.SURVIVAL_RULES) {
+            if (amountNeighbours == rule) {
+                return true;
+            }
         }
         return false;
     }
 
-    /*public LivingCell find_target_cell(int posX, int posY) {
-        for (int i = 0; i < this.matriz.length; i++) {
-            for (int j = 0; j < this.matriz[i].length; j++) {
-                if (this.matriz[i][j] == null) {
-                    continue;
-                }
-                if (this.matriz[i][j].getLocation().getPosX() == posX
-                        && this.matriz[i][j].getLocation().getPosY() == posY) {
-                    return this.matriz[i][j];
-                }
-            }
-        }
 
-        return null;
-    }*/
 
     public void next_turn() {
-        LivingCell newMatriz[][] = new LivingCell[100][100];
+        LivingCell newMatriz[][] = new LivingCell[MainGif.X_SIZE][MainGif.Y_SIZE];
         for (int i = 0; i < this.matriz.length; i++) {
             for (int j = 0; j < this.matriz[i].length; j++) {
                 Location locationTarget = new Location(i, j);
 
                 // Si sobrevive la celula
-                if (survivedCell(locationTarget)) {
-                    if (alive_at(locationTarget) && count_neighbours(locationTarget) == 3) {
-                        newMatriz[i][j] = new LivingCell(locationTarget);
-                    }
-                    if (alive_at(locationTarget) && count_neighbours(locationTarget) == 2) {
+                //if (survivedCell(locationTarget)) {
+
+                for (int rule: MainGif.SURVIVAL_RULES) {
+                    if (alive_at(locationTarget) && count_neighbours(locationTarget) == rule) {
                         newMatriz[i][j] = new LivingCell(locationTarget);
                     }
                 }
+                //}
 
                 // Creacion de nuevas celulas (Revive)
-                if (count_neighbours(locationTarget) == 3) {
-                    newMatriz[i][j] = new LivingCell(locationTarget);
+                for (int rule: MainGif.REBORN_RULES) {
+                    if (count_neighbours(locationTarget) == rule) {
+                        newMatriz[i][j] = new LivingCell(locationTarget);
+                    }
                 }
 
             }
